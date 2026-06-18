@@ -1,0 +1,7 @@
+{
+    "server": "::",
+    "server_port": 0,
+    "mode": "tcp_and_udp",
+    "password": "",
+    "method": "2022-blake3-chacha20-poly1305"
+}
