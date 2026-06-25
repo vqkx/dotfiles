@@ -1,0 +1,21 @@
+{
+    "log": {
+        "disabled": true
+    },
+    "inbounds": [
+        {
+            "type": "shadowsocks",
+            "listen": "::",
+            "listen_port": ,
+            "method": "2022-blake3-chacha20-poly1305",
+            "password": ""
+        },
+        {
+            "type": "direct",
+            "listen": "::",
+            "listen_port": 0,
+            "override_address": "",
+            "override_port": 0
+        }
+    ]
+}
