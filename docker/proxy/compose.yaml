@@ -1,0 +1,8 @@
+services:
+  shadowsocks-rust:
+    image: ghcr.io/shadowsocks/ssserver-rust:latest
+    container_name: proxy
+    network_mode: host
+    restart: always
+    volumes:
+      - ./config.json:/etc/shadowsocks-rust/config.json
